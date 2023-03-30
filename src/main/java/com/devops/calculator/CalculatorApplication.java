@@ -12,7 +12,7 @@ public class CalculatorApplication {
 		SpringApplication.run(CalculatorApplication.class, args);
 
 
-		/*Calculator calculator = new Calculator();
+		Calculator calculator = new Calculator();
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Enter your first number  ");
 		int num1 = scanner.nextInt();
@@ -33,6 +33,6 @@ public class CalculatorApplication {
 			else
 				continue;
 
-	}*/
+	}
 	}
 }
