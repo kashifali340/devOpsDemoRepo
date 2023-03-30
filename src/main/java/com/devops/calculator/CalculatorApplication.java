@@ -10,7 +10,9 @@ public class CalculatorApplication {
 
 	public static void main(String[] args) throws InterruptedException {
 		SpringApplication.run(CalculatorApplication.class, args);
-		Calculator calculator = new Calculator();
+
+
+		/*Calculator calculator = new Calculator();
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Enter your first number  ");
 		int num1 = scanner.nextInt();
@@ -30,7 +32,7 @@ public class CalculatorApplication {
 				break;
 			else
 				continue;
-		}
-	}
 
+	}*/
+	}
 }
