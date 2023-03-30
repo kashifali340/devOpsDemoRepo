@@ -33,6 +33,10 @@ public class CalculatorController {
     {
         return calculator.divide(num1, num2);
     }
+    @GetMapping
+    public String getString(){
+        return "Hello World";
+    }
 
 
 }
